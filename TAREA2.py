@@ -46,6 +46,7 @@ class lista:
         while aux != None:
             if aux.dato == numero:
                 print('Numero anterior:',aux.anterior.dato)
+                print('Numero actual:',aux.dato)
                 print('Numero porterior:',aux.siguiente.dato)
                 return
             if aux.siguiente == self.inicio:
